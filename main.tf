@@ -2,7 +2,7 @@ terraform {
 
  required_providers {
 
-  docker = {
+  any = {
 
    source = "kreuzwerker/docker"
 
